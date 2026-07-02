@@ -79,11 +79,11 @@ export const WORK = [
   {
     span: "big",
     year: "2026",
-    type: "Migración + Sistema",
-    name: "Distribuidora La Surtidora",
+    type: "App de cuentas · PWA · Cliente real",
+    name: "Menudería Cortazar",
     built:
-      "Migramos su control de inventario y pedidos de tres archivos de Excel a un sistema central con acceso para vendedores y almacén.",
-    result: "Cero pedidos con errores de captura; inventario en tiempo real.",
+      "App de cuentas para el restaurante: meseros, cocina y administración en tiempo real, con acceso por rol (PWA + Supabase). En operación.",
+    result: "Las comandas y las cuentas dejaron de llevarse en papel.",
   },
   {
     span: "small",

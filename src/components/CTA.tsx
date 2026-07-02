@@ -32,6 +32,17 @@ export default function CTA() {
             </a>
           </Magnetic>
         </div>
+        <p
+          style={{
+            fontFamily: "var(--f-mono)",
+            fontSize: "0.76rem",
+            letterSpacing: "0.04em",
+            color: "var(--ink-faint)",
+            marginTop: "0.5rem",
+          }}
+        >
+          Hablas directo con Miguel — quien construye, no un vendedor.
+        </p>
       </div>
     </section>
   );

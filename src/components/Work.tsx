@@ -48,7 +48,7 @@ export default function Work() {
           marginTop: "1.2rem",
         }}
       >
-        * Casos ilustrativos — se reemplazan por proyectos reales conforme se cierran.
+        * Menudería Cortazar es un proyecto real en operación; los demás son casos ilustrativos que se reemplazan por reales conforme se cierran.
       </p>
     </section>
   );
