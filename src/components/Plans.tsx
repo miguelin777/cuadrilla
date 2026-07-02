@@ -15,8 +15,9 @@ export default function Plans() {
           </h2>
         </div>
         <p>
-          Elige según lo que necesitas hoy. Sin letras chiquitas: el alcance y el precio
-          los ves por escrito antes de empezar.
+          Precios de arranque de a de veras accesibles —apenas estoy creciendo y me
+          interesa que te animes—. Sin letras chiquitas: el alcance y el precio los ves
+          por escrito antes de empezar.
         </p>
       </div>
 

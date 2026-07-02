@@ -12,9 +12,9 @@ export default function Manifesto() {
       <div className="manifesto__grid" style={{ marginTop: "2.5rem" }}>
         <Reveal>
           <p className="manifesto__text">
-            Somos Cuadrilla. Convertimos ese proceso que hoy vive en{" "}
-            <em>hojas de Excel</em>, cuadernos y mensajes sueltos de WhatsApp en un
-            sistema que <em>trabaja para ti</em>.
+            Somos Cuadrilla, un estudio chico de software en Cortázar. Agarramos ese
+            enredo que hoy vive en <em>Excel</em>, en la libreta y en mensajes sueltos de
+            WhatsApp, y lo volvemos un sistema que <em>trabaja para ti</em>.
           </p>
         </Reveal>
 

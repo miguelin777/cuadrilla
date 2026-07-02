@@ -56,9 +56,9 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
           >
-            Software terminado que tu negocio empieza a usar en semanas, no en promesas.
-            Automatizaciones, sistemas y dashboards a la medida — sin tecnicismos y sin
-            que tengas que contratar un equipo de sistemas.
+            Le hacemos sistemas y páginas a negocios del Bajío: tu facturación, tus
+            ventas, tu WhatsApp — lo que de verdad usas todos los días. Tú dices qué te
+            estorba y nosotros lo armamos, sin llenarte de palabras raras.
           </motion.p>
 
           <motion.div

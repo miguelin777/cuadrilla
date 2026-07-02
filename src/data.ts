@@ -10,68 +10,68 @@ export const NAV = [
 
 export const MARQUEE = [
   "Facturación CFDI",
-  "Dashboards",
-  "Migración de Excel",
-  "Agentes de WhatsApp",
-  "Integraciones",
-  "Portales con panel",
-  "Automatización",
-  "Sistemas a la medida",
+  "Tableros de ventas",
+  "Adiós al Excel",
+  "Asistentes de WhatsApp",
+  "Tiendas en línea",
+  "Paneles de administración",
+  "Reservas y pedidos",
+  "Hecho a tu medida",
 ];
 
 export const SERVICES = [
   {
     n: "01",
-    title: "Facturación CFDI automática",
-    desc: "Genera, timbra y envía tus facturas sin capturar dato por dato. Conectamos tu facturación con el SAT y con tus ventas para que dejes de perder horas cada fin de mes.",
+    title: "Facturación CFDI que se hace sola",
+    desc: "¿Sigues capturando factura por factura a fin de mes? Conecto tu facturación con el SAT y con tus ventas para que se timbren y se manden solas.",
   },
   {
     n: "02",
-    title: "De Excel (o papel) a un sistema de verdad",
-    desc: "Pasamos tus hojas de cálculo, libretas y formatos sueltos a un sistema centralizado, con acceso por usuario y sin archivos duplicados que nadie sabe cuál es el bueno.",
+    title: "Tu Excel (o tu libreta) hecho un sistema",
+    desc: "Ese archivo que solo tú entiendes y que si se borra te mueres: lo paso a un sistema ordenado, con usuarios y sin copias regadas por todos lados.",
   },
   {
     n: "03",
-    title: "Dashboards de ventas e inventario",
-    desc: "Ve cómo va tu negocio en una sola pantalla: qué se vende, qué te queda, qué te está costando. Datos claros para decidir hoy, no a fin de mes.",
+    title: "Un tablero para ver cómo va el negocio",
+    desc: "Cuánto vendiste, qué te queda, qué se mueve y qué no. En una sola pantalla y desde el celular, sin esperar al fin de mes.",
   },
   {
     n: "04",
-    title: "Integraciones entre tus sistemas",
-    desc: "Hacemos que tu punto de venta, tu inventario, tu contabilidad y tus herramientas hablen entre sí. Se acabó el copiar y pegar de un lado a otro.",
+    title: "Que tus programas se hablen entre ellos",
+    desc: "Punto de venta, inventario, contabilidad… conecto lo que ya usas para que dejes de pasar datos a mano de un lado a otro.",
   },
   {
     n: "05",
-    title: "Sitios y portales con panel de control",
-    desc: "Tu página, tu tienda o tu portal de clientes, con un panel donde tú mismo actualizas precios, productos y contenido. Sin depender de nadie para cada cambio.",
+    title: "Página o tienda con su panel",
+    desc: "Tu sitio o tu tienda en línea, con un panel donde tú mismo cambias precios, fotos y productos. Sin hablarme para cada cambio.",
   },
   {
     n: "06",
-    title: "Agentes de WhatsApp",
-    desc: "Un asistente que contesta, agenda, cotiza o toma pedidos por WhatsApp las 24 horas. Atiende a tus clientes cuando tú no puedes y te pasa lo importante ya filtrado.",
+    title: "Un asistente metido en tu WhatsApp",
+    desc: "Contesta, cotiza, agenda y toma pedidos aunque estés dormido o el mostrador esté lleno. Lo importante te llega ya filtrado.",
   },
 ];
 
 export const PROCESS = [
   {
     n: "01",
-    title: "Nos cuentas el problema",
-    desc: "Una llamada o una junta. Tú hablas en tu idioma —el de tu negocio— y nosotros entendemos qué te está costando tiempo o dinero. Sin tecnicismos.",
+    title: "Me cuentas qué te trae vuelto loco",
+    desc: "Una llamada. Me lo platicas como se lo dirías a un compa, sin palabras raras. Yo saco qué te está costando tiempo o dinero.",
   },
   {
     n: "02",
-    title: "Te proponemos y cotizamos",
-    desc: "Te decimos con claridad qué vamos a construir, qué vas a poder hacer con ello, cuánto tarda y cuánto cuesta. Todo por escrito, antes de empezar.",
+    title: "Te digo qué se puede y cuánto",
+    desc: "Nada de cotizaciones misteriosas. Te pongo por escrito qué te voy a hacer, para qué te sirve, cuánto tarda y cuánto cuesta. Ahí tú decides.",
   },
   {
     n: "03",
-    title: "Construimos y te mostramos",
-    desc: "Nos ponemos a trabajar y te enseñamos avances reales, no reportes. Ajustamos sobre la marcha para que recibas exactamente lo que tu negocio necesita.",
+    title: "Lo armo y te lo voy enseñando",
+    desc: "No desaparezco tres meses. Te muestro avances de verdad y lo ajustamos sobre la marcha hasta que quede como lo necesitas.",
   },
   {
     n: "04",
-    title: "Entregamos funcionando",
-    desc: "Instalamos, dejamos todo operando y te capacitamos a ti y a tu equipo. No te entregamos un manual y adiós: seguimos ahí por si algo se ofrece.",
+    title: "Te lo dejo funcionando",
+    desc: "Lo instalo, te enseño a usarlo a ti y a tu gente, y me quedo para cuando se ofrezca. No te entrego un manual y adiós.",
   },
 ];
 
@@ -79,102 +79,106 @@ export const WORK = [
   {
     span: "big",
     year: "2026",
-    type: "App de cuentas · PWA · Cliente real",
+    type: "App de cuentas · PWA",
     name: "Menudería Cortazar",
     built:
-      "App de cuentas para el restaurante: meseros, cocina y administración en tiempo real, con acceso por rol (PWA + Supabase). En operación.",
-    result: "Las comandas y las cuentas dejaron de llevarse en papel.",
+      "App para el restaurante: los meseros toman la cuenta, la cocina la ve al instante y el dueño revisa ventas y cortes desde el celular. Con login por rol.",
+    result: "Las comandas y las cuentas dejaron el papel.",
   },
   {
     span: "small",
     year: "2026",
-    type: "Facturación CFDI",
-    name: "Despacho Vega & Asociados",
-    built: "Automatización de facturación CFDI en lote conectada a su sistema de clientes.",
-    result: "De una tarde entera a minutos en cierre de mes.",
-  },
-  {
-    span: "half",
-    year: "2025",
-    type: "Catálogo + WhatsApp",
-    name: "Refaccionaria El Pistón",
-    built: "Catálogo digital con buscador por marca/modelo y agente de WhatsApp que cotiza al momento.",
-    result: "Dejaron de perder ventas por no contestar a tiempo.",
-  },
-  {
-    span: "half",
-    year: "2025",
-    type: "Portal + Recordatorios",
-    name: "Clínica Dental Sonríe Más",
+    type: "Sitio + reservas + panel",
+    name: "War Games Gotcha",
     built:
-      "Portal de citas con recordatorios automáticos por WhatsApp y expediente digital de cada paciente.",
-    result: "Menos citas perdidas por olvido; adiós a la agenda en papel.",
+      "Sitio del campo de paintball en Celaya, con reservador que arma el pedido y lo manda por WhatsApp, y panel para que ellos editen todo.",
+    result: "Reservan sin llamadas y el dueño cambia precios solo.",
+  },
+  {
+    span: "half",
+    year: "2026",
+    type: "Tienda en línea + panel",
+    name: "Muebles Cortazar",
+    built:
+      "Tienda con catálogo, carrito y pago con tarjeta (Stripe), más un panel donde el dueño edita productos, precios, fotos y hasta los textos del sitio.",
+    result: "Su mueblería vende en línea y se administra sola.",
+  },
+  {
+    span: "half",
+    year: "2026",
+    type: "Sitio + panel · Restaurante",
+    name: "El Ranchito de Yulay",
+    built:
+      "Sitio del restaurante con panel completo: reservaciones, menú, horarios y contenido, todo editable por ellos sin tocar código.",
+    result: "El menú y los horarios los cambian en un clic.",
   },
   {
     span: "small",
     year: "2025",
-    type: "Punto de venta + Dashboard",
-    name: "Restaurante Doña Chelo",
+    type: "Sitio de organización",
+    name: "Sonríe México",
     built:
-      "Sistema de pedidos y control de mesas con dashboard de ventas del día y platillos más vendidos.",
-    result: "La dueña ve el día desde el celular, sin estar en el local.",
+      "Sitio de la red de jóvenes por el medio ambiente: campañas, iniciativas y donaciones.",
+    result: "En vivo en sonriemexico.org.",
+    url: "https://sonriemexico.org",
   },
   {
     span: "big",
-    year: "2024",
-    type: "Portal administrativo",
-    name: "Colegio Herrera",
+    year: "2025",
+    type: "Sitio de producto · Movilidad",
+    name: "RuedaTec",
     built:
-      "Portal para papás con estados de cuenta, avisos y pagos en línea, conectado con su control administrativo.",
-    result: "Menos filas en caja y una cobranza más ordenada mes con mes.",
+      "Sitio del módulo que vuelve eléctrica una silla de ruedas manual. Proyecto propio, 2º lugar en el Invention Convention Americas.",
+    result: "En vivo en ruedatec.com.",
+    url: "https://ruedatec.com",
   },
 ];
 
 export const PLANS = [
   {
-    name: "Arranque",
-    forWho: "Para el negocio que tiene un problema puntual y lo quiere resuelto ya.",
-    desc: "Una automatización o herramienta concreta: la facturación, el paso de tu Excel a un sistema, un dashboard. Alcance claro, entrega rápida y directo al grano.",
-    price: "Proyecto único · alcance cerrado",
+    name: "Presencia",
+    forWho: "Para el que todavía manda su ubicación de Google porque no tiene página.",
+    desc: "Tu sitio profesional con dominio y hosting, hecho a tu negocio. Rápido, bonito y sin complicaciones.",
+    price: "Desde $1,500 una sola vez · o $300 al mes",
     feat: false,
   },
   {
-    name: "A la Medida",
-    forWho: "Para el negocio que ya trae varios frentes abiertos y quiere ordenarlos.",
-    desc: "El paquete más pedido. Un sistema completo pensado para tu operación: módulos conectados, panel de control, usuarios con permisos y las integraciones que necesites. Lo construimos alrededor de cómo trabajas tú.",
-    price: "Por etapas · empiezas a ver resultados desde el inicio",
+    name: "Negocio",
+    forWho: "Para el que quiere vender y administrar todo desde su celular.",
+    desc: "El más pedido. Sitio + un panel donde tú cambias precios, fotos y textos, más WhatsApp, reservas o pedidos, según lo que necesites.",
+    price: "Arranque desde $2,500 + $450/mes · primer mes gratis, sin enganche",
     feat: true,
     tag: "Más pedido",
   },
   {
-    name: "Cuadrilla Continua",
-    forWho: "Para el negocio que quiere un equipo de software sin tener que contratarlo.",
-    desc: "Nos volvemos tu área de tecnología por una cuota mensual. Mejoras constantes, mantenimiento, soporte y nuevos desarrollos conforme creces. Tú pides, nosotros construimos, mes con mes.",
-    price: "Mensualidad · sin amarres eternos",
+    name: "A la medida",
+    forWho: "Para el que ya trae varios frentes abiertos y quiere ordenarlos.",
+    desc: "Tienda con carrito y pagos, o un sistema hecho para cómo trabajas tú. Lo partimos en etapas para que empieces a ver resultados pronto.",
+    price: "Cotización a tu medida · se paga en partes",
     feat: false,
   },
 ];
 
 export const FAQS = [
   {
-    q: "No soy de tecnología. ¿Voy a poder usar lo que me entreguen?",
-    a: "Esa es justo la idea. Construimos pensando en que lo use gente ocupada, no ingenieros. Te lo dejamos funcionando, te capacitamos a ti y a tu equipo, y nos aseguramos de que quede claro antes de irnos. Si algo no se entiende, no terminamos.",
+    q: "No le sé nada a la tecnología. ¿Voy a poder usarlo?",
+    a: "Para eso lo hago. Lo armo pensando en gente ocupada, no en ingenieros. Te lo dejo funcionando, te enseño a ti y a tu equipo, y no me voy hasta que te quede clarito. Si no se entiende, no terminamos.",
   },
   {
-    q: "¿Cuánto tardan en entregar?",
-    a: "Depende del tamaño, pero trabajamos por entregas rápidas y concretas. Una automatización o un dashboard puede estar en pocas semanas. Los proyectos más grandes los partimos en etapas, para que empieces a ver resultados desde el principio y no esperes meses a ciegas.",
+    q: "¿En cuánto me lo entregas?",
+    a: "Depende del tamaño, pero no te tengo esperando meses. Una automatización o un tablero puede estar en unas semanas. Lo grande lo parto en etapas para que veas resultados desde el arranque y no a ciegas.",
   },
   {
-    q: "¿Cómo sé cuánto me va a costar antes de comprometerme?",
-    a: "Antes de escribir una sola línea de código te entregamos una propuesta con alcance, tiempos y precio por escrito. No hay sorpresas ni cargos que aparecen a medio camino. Si el proyecto crece, lo platicamos antes, no después.",
+    q: "¿Y cuánto me va a costar?",
+    a: "Te lo digo por escrito antes de empezar: qué incluye, cuánto tarda y cuánto es. Sin cargos que salen a medio camino. Si el proyecto crece, lo platicamos antes, no después.",
   },
   {
-    q: "Ya tengo sistemas y programas. ¿Empiezan de cero?",
-    a: "No necesariamente. En muchos casos conviene conectar y aprovechar lo que ya tienes en lugar de tirarlo. Revisamos tu operación y te decimos honestamente qué vale la pena conservar, qué mejorar y qué sí conviene reemplazar.",
+    q: "Ya tengo página o sistema. ¿Empezamos de cero?",
+    a: "No necesariamente. Muchas veces conviene aprovechar lo que ya tienes en vez de tirarlo. Reviso tu caso y te digo con honestidad qué sirve, qué se mejora y qué sí hay que cambiar.",
   },
   {
-    q: "¿Y si necesito cambios después de la entrega?",
-    a: "El software vivo cambia con tu negocio, y eso es normal. Puedes contratar ajustes cuando los necesites o pasarte al plan Cuadrilla Continua, donde el mantenimiento y las mejoras ya vienen incluidos. No te dejamos solo con algo que no puedes mover.",
+    q: "¿Y si después quiero cambios?",
+    a: "Es normal, tu negocio va cambiando. Me pides ajustes cuando los necesites, o te pasas al plan mensual donde ya van incluidos. No te dejo solo con algo que no puedes mover.",
   },
 ];
 
