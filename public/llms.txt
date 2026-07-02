@@ -1,0 +1,36 @@
+# Cuadrilla
+
+> Estudio de software del Bajío, México. Entregamos software terminado a la medida para negocios: el cliente dirige, nosotros construimos. Lema: "Tú diriges. Nosotros construimos."
+
+Cuadrilla ayuda a negocios que no son de tecnología (despachos contables, distribuidoras, refaccionarias, clínicas, restaurantes, escuelas) a dejar el Excel, el papel y los procesos manuales, entregándoles software que funciona en semanas. Trabaja con un stack moderno (React, TypeScript, Supabase) y usa IA como herramienta de desarrollo, siempre con revisión humana.
+
+## Servicios
+
+- [Facturación CFDI automática](https://cuadrilla.mx/#servicios): genera, timbra y envía facturas CFDI 4.0 conectadas al SAT y a las ventas, sin captura manual.
+- [Migración de Excel o papel a un sistema](https://cuadrilla.mx/#servicios): centraliza hojas de cálculo y formatos sueltos en un sistema con acceso por usuario.
+- [Dashboards de ventas e inventario](https://cuadrilla.mx/#servicios): una sola pantalla para ver qué se vende, qué queda y qué cuesta.
+- [Integraciones entre sistemas](https://cuadrilla.mx/#servicios): conecta punto de venta, inventario y contabilidad.
+- [Sitios y portales con panel de control](https://cuadrilla.mx/#servicios): sitio, tienda o portal con panel de autogestión.
+- [Agentes de WhatsApp](https://cuadrilla.mx/#servicios): asistente que contesta, agenda, cotiza y toma pedidos 24/7.
+
+## Cómo trabaja
+
+1. Cuéntanos el problema (en tu idioma, sin tecnicismos).
+2. Propuesta y cotización por escrito antes de empezar.
+3. Construcción con avances reales que puedes ver.
+4. Entrega funcionando, con capacitación y soporte.
+
+## Planes
+
+- Arranque: una automatización o herramienta concreta, alcance cerrado.
+- A la Medida (el más pedido): sistema completo con módulos, panel y usuarios.
+- Cuadrilla Continua: equipo de software por una cuota mensual (mejoras y soporte continuos).
+
+## Contacto
+
+- WhatsApp y correo: hola@cuadrilla.mx
+- Zona: El Bajío, Guanajuato, México (Celaya, Cortázar e Irapuato).
+
+## Notas
+
+- La demo de facturación en el sitio usa datos ficticios de ejemplo; no es un CFDI fiscalmente válido.

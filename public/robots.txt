@@ -1,0 +1,39 @@
+# Cuadrilla — robots.txt
+# Permitimos indexación general y explícitamente a los bots de IA
+# (así los motores generativos pueden leer y recomendar el sitio).
+
+User-agent: *
+Allow: /
+
+# --- Motores de IA / búsqueda generativa ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://cuadrilla.mx/sitemap.xml
